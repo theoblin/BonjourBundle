@@ -1,4 +1,4 @@
 services:
   theoblin.service.bonjour:
-    class: Theoblin\BonjourBundle\Service\BonjourService
+    class: TheoBlin\BonjourBundle\Service\BonjourService
     public: true
