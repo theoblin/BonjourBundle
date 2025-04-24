@@ -3,7 +3,7 @@
         'name' => 'theoblin/bonjourbundle',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'd8a5eff4a5056a65cc5bbeccf90bfea456bc9088',
+        'reference' => 'de3235c8a1ee2616c41abaca504b67d739f0df26',
         'type' => 'symfony-bundle',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -187,7 +187,7 @@
         'theoblin/bonjourbundle' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'd8a5eff4a5056a65cc5bbeccf90bfea456bc9088',
+            'reference' => 'de3235c8a1ee2616c41abaca504b67d739f0df26',
             'type' => 'symfony-bundle',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
