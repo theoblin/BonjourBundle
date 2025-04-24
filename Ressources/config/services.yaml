@@ -1,3 +1,8 @@
 services:
     Theoblin\BonjourBundle\Service\BonjourService:
         public: true
+    Theoblin\BonjourBundle\src\Twig\BonjourExtension:
+        arguments:
+            $bonjourService: '@Theoblin\BonjourBundle\Service\BonjourService'
+        tags:
+            - { name: 'twig.extension' }
