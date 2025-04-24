@@ -1,5 +1,5 @@
 services:
     TheoBlin\BonjourBundle\Service\BonjourService:
-    public: true
-    autowire: true
-    autoconfigure: true
+      public: true
+      autowire: true
+      autoconfigure: true
