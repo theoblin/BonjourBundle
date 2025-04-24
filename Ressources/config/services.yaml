@@ -1,6 +1,6 @@
 services:
-    Theoblin\BonjourBundle\Service\BonjourService:
-        public: true
+    Theoblin\BonjourBundle\Service\BonjourService: ~
+
     Theoblin\BonjourBundle\Twig\BonjourExtension:
         arguments:
             $bonjourService: '@Theoblin\BonjourBundle\Service\BonjourService'
