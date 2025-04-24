@@ -1,0 +1,13 @@
+{
+    "name": "theoblin/BonjourBundle",
+    "type": "symfony-bundle",
+    "description": "Step-by-step Symfony bundle tutorial",
+    "keywords": ["php", "symfony", "reusable bundle", "tutorial"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "theoblin",
+            "email": "tets@gmail.com"
+        }
+    ]
+}
