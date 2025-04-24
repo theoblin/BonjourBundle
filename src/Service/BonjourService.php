@@ -1,6 +1,6 @@
 <?php
 
-namespace Theoblin\BonjourBundle\Service;
+namespace TheoBlin\BonjourBundle\Service;
 
 class BonjourService
 {
