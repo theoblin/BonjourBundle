@@ -9,5 +9,12 @@
             "name": "theoblin",
             "email": "tets@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+    "psr-4": { "theoblin\\BonjourBundle\\": "src/" }
+    },
+    "require": {
+        "symfony/dependency-injection": "^7.2",
+        "symfony/http-kernel": "^7.2"
+    }
 }
