@@ -14,6 +14,7 @@ class BonjourBundle extends Bundle
         parent::build($container);
 
         $loader = new YamlFileLoader($container, new FileLocator(__DIR__ . '/Resources/config'));
+        dump(__DIR__ . '/Resources/config');
         $loader->load('services.yaml');
     }
 }
