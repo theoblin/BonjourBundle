@@ -1,19 +1,19 @@
 <?php
 
-namespace Theoblin\BonjourBundle;
+namespace TheoBlin\BonjourBundle;
 
+use TheoBlin\BonjourBundle\DependencyInjection\BonjourBundleExtension;
+use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
-use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
-use Symfony\Component\Config\FileLocator;
 
 class BonjourBundle extends Bundle
 {
-    public function build(ContainerBuilder $container): void
+    public function getContainerExtension(): ?ExtensionInterface
     {
-        parent::build($container);
+        if (null === $this->extension) {
+            return new BonjourBundleExtension();
+        }
 
-        $loader = new YamlFileLoader($container, new FileLocator(__DIR__ . '\Resources\config'));
-        $loader->load('services.yaml');
+        return $this->extension ?: null;
     }
 }
