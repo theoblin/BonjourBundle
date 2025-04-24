@@ -2,3 +2,5 @@ services:
   theoblin.service.bonjour:
     class: TheoBlin\BonjourBundle\Service\BonjourService
     public: true
+    autowire: true
+    autoconfigure: true
