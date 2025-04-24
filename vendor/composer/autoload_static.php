@@ -17,7 +17,7 @@ class ComposerStaticInit82ebfeac40c7b5ad761d339ae325de1e
     public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
-            'Theoblin\\BonjourBundle\\' => 23,
+            'TheoBlin\\BonjourBundle\\' => 23,
         ),
         'S' => 
         array (
@@ -43,9 +43,9 @@ class ComposerStaticInit82ebfeac40c7b5ad761d339ae325de1e
     );
 
     public static $prefixDirsPsr4 = array (
-        'Theoblin\\BonjourBundle\\' => 
+        'TheoBlin\\BonjourBundle\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/',
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Symfony\\Polyfill\\Php83\\' => 
         array (
