@@ -1,5 +1,5 @@
 {
-    "name": "theoblin/BonjourBundle",
+    "name": "theoblin/bonjourbundle",
     "type": "symfony-bundle",
     "description": "Step-by-step Symfony bundle tutorial",
     "keywords": ["php", "symfony", "reusable bundle", "tutorial"],
