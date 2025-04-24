@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Theoblin\\BonjourBundle\\": "src/"
+            "TheoBlin\\BonjourBundle\\": "src/"
         }
     },
     "require": {
