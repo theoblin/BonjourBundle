@@ -11,7 +11,9 @@
         }
     ],
     "autoload": {
-    "psr-4": { "theoblin\\BonjourBundle\\": "src/" }
+        "psr-4": {
+            "Theoblin\\BonjourBundle\\": ""
+        }
     },
     "require": {
         "symfony/dependency-injection": "^7.2",
